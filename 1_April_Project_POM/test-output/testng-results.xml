@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7659" started-at="2018-03-27T04:53:56Z" finished-at="2018-03-27T04:54:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7659" started-at="2018-03-27T04:53:56Z" finished-at="2018-03-27T04:54:04Z">
+      <class name="test_Aplication_POM.LoginPage_Test_POM">
+        <test-method status="PASS" signature="loginTest_Care(java.util.Hashtable)[pri:0, instance:test_Aplication_POM.LoginPage_Test_POM@1648c40]" name="loginTest_Care" duration-ms="7343" started-at="2018-03-27T10:23:56Z" data-provider="getTestData" finished-at="2018-03-27T10:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Actual_Result=Care, user=careadmin1, Password=bbcl@gr1, Runmode=Y, PageTitle=Care, Expected_Result=Care, Result=PASS, Browser=chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest_Care -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_Aplication_POM.LoginPage_Test_POM@1648c40]" name="tearDown" is-config="true" duration-ms="290" started-at="2018-03-27T10:24:03Z" finished-at="2018-03-27T10:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_Aplication_POM.LoginPage_Test_POM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
